@@ -1,0 +1,127 @@
+/* Ideally Styling For Future Projects*/
+
+header {
+  background-color: #f0f0f0;
+}
+
+#bannerimage {
+  background-image: url('../images/the-social-network-banner-grey.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 160px;
+}
+
+#title {
+  text-align: center;
+  color: #f2f4fa;
+  font-family: cursive;
+  background-color: #94add6;
+  border-radius: 10px;
+  margin-bottom: 1px;
+  padding: 20px 5px 10px 5px;
+  height: 90px auto;
+  /*alt deep blue background-colour: #3e6ab0
+  width: 900px auto;
+  border-style: inset;
+  border-width: thick;
+  border-color: #c2d9ff #8698b8 #7f94b8 #c2d9ff;*/
+}
+
+h5 {
+  text-align: center;
+}
+
+#harvardnote {
+  padding: 10px;
+  padding-bottom: 5px;
+  font-family: fantasy;
+  background-color: #d1e3ff;
+  display: inline-flex;
+  border-radius: 10px;
+}
+
+/*.row > div {
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
+}*/
+
+.grid {
+  background-color: #94add6;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  /*alt colour, darker blue: #325a99*/
+}
+@media (min-width: 1200px) {
+    .grid {
+      margin-left: 200px;
+      margin-right: 200px;
+      border-radius: 10px;
+      grid-template-columns: auto auto auto;
+    }
+    #title {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1199px) {
+  .grid {
+      margin-left: none;
+      margin-right: none;
+      grid-template-columns: 300px 300px auto;
+      overflow: auto;
+  }
+  #title {
+      width: auto;
+  }
+}
+
+/*#role, #characteristics, #examples, #role2, #characteristics2, #examples2 {
+  color: #24282e;
+  background-color: #edf1f7;
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 25px;
+}*/
+
+.nav {
+  width: 40%;
+  text-align: center;
+}
+
+/* inheritance*/
+.active, .navlink {
+  width: 20%;
+  text-align: center;
+  color: #799ed9;
+  font-family: fantasy;
+  font-weight: 100px;
+}
+
+.active {
+  background-color: #dbe9ff;
+}
+.navlink:hover {
+  background-color: #d1e3ff;
+}
+.link {
+  color: #799ed9;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 20px;
+    text-align: center;
+    color: #24282e;
+    background-color: #edf1f7;
+}
+
+/*body {
+  background-color: #F5F5F5;
+  line-height: 30px:
+}*/
